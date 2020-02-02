@@ -13,6 +13,9 @@
 // of analog and digital inputs where used. It requires slightly different 
 // circuitry and code. 
 //
+// For the analog inputs 1MOhm resistors were used. It just needs to detect the change 
+// For the digital inputs 10MOhm resistors were used. It needs to flip the digital signal
+//
 // The following software was used to create a standalone solution
 // Hairless MIDI to convert seriel to MIDI 
 // Cubase as DAW
@@ -44,6 +47,7 @@ void loop() {
   // If you are already touching the banana and keep on touching it do nothing
   // If you are touching the banana start playing the note
   // If note is playing but you no longer touching the banana turn it off
+  
   
   // Setting up some bass bananas. These run an octave when pressed
   // LOW D
@@ -83,6 +87,7 @@ void loop() {
     MIDIMessage(noteOn, 58, 0);
   }  
 
+  // Adding some keys starting at C4
   // C
   if(analogRead(A2) < 950 && keysPressed[3] == pressed){}
   else if (analogRead(A2) < 950 && keysPressed[3] == notPressed) {
