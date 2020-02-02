@@ -18,7 +18,6 @@
 // Cubase as DAW
 // Asio4all and IPMidi to run DAW on computer speakers/headphones instead of Interface
 // 
-// Kristian Heim
 
 // Array to keep track of which bananas are touched
 int keysPressed[]={0,0,0,0,0,0,0,0,0,0,0,0,0,0};
