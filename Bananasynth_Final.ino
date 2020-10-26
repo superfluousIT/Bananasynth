@@ -21,6 +21,8 @@
 // Cubase as DAW
 // Asio4all and IPMidi to run DAW on computer speakers/headphones instead of Interface
 // 
+// Here is a movie I made of building and playing the banan synth: 
+// https://youtu.be/9mCoFR15eds
 
 // Array to keep track of which bananas are touched
 int keysPressed[]={0,0,0,0,0,0,0,0,0,0,0,0,0,0};
